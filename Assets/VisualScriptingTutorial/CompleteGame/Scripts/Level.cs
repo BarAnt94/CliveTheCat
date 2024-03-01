@@ -131,7 +131,7 @@ namespace VisualScriptingTutorial
         void SpawnPlayer()
         {
             EntryPoint.Instance.PlayerInstance.gameObject.SetActive(true);
-            EntryPoint.Instance.PlayerInstance.TeleportTo(new Vector2(SpawnPoint.x, SpawnPoint.z));
+            EntryPoint.Instance.PlayerInstance.TeleportTo(new Vector2(SpawnPoint.x, SpawnPoint.z)); 
         }
 
         public void CameraMoved(Vector3 cameraPosition)
